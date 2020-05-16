@@ -2,7 +2,7 @@ body {
     background-color: #FFF;
     color: #333;;
     font-family: 'Manrope', sans-serif;
-    text-align: center;
+    text-align: left;
     margin-bottom: 3em;
 }
 
@@ -20,17 +20,11 @@ h5 {
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: left;
-}
-
-.main ul {
-    text-align: left;
 }
 
 .main h6 {
     color: #50CE76;
     font-size: 18px;
-    text-align: left;
 }
 
 #name {
@@ -39,4 +33,5 @@ p {
 
 .header {
     margin: 4em 0 3em 0;
+    text-align: center;
 }
