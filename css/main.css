@@ -28,8 +28,40 @@ hr {
     width: 70%;
 }
 
+.header {
+    margin: 4em 0 3em 0;
+    text-align: center;
+}
+
+.header h6 {
+    margin-top: 20px;
+}
+
+.social-icons {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.social-icons a:hover, .social-icons a:focus {
+    color: #000;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #50CE76;
+    padding: 0 10px 0 10px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
 .main {
     margin-top: 2em;
+}
+
+.main h2 {
+    margin-top: 1em;
 }
 
 .main h6 {
@@ -45,13 +77,8 @@ hr {
     color: #50CE76;
 }
 
-.header {
-    margin: 4em 0 3em 0;
-    text-align: center;
-}
-
-.header h6 {
-    margin-top: 20px;
+.contact {
+    margin-top: 1em;
 }
 
 .contact h6 {
