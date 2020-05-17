@@ -28,6 +28,18 @@ hr {
     width: 70%;
 }
 
+li {
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
 .header {
     margin: 4em 0 3em 0;
     text-align: center;
