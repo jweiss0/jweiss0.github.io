@@ -32,6 +32,20 @@ li {
     font-size: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: #50CE76;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -54,18 +68,9 @@ li {
     margin-top: 20px;
 }
 
-.social-icons a:hover, .social-icons a:focus {
-    color: #000;
-    -webkit-transition: 0.25s;
-    transition: 0.25s;
-}
-
 .social-icons a {
     display: inline-block;
-    color: #50CE76;
     padding: 0 10px 0 10px;
-    -webkit-transition: 0.25s;
-    transition: 0.25s;
 }
 
 .main {
