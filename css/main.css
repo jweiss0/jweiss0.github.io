@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-    text-decoration: underline dashed #50CE76;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -24,8 +24,21 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-hr {
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.hr-main {
     width: 70%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.hr-short {
+    width: 55%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 li {
@@ -63,6 +76,11 @@ a:hover, a:active, a:visited, a:focus {
     margin-top: 20px;
 }
 
+.projects {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .social-icons {
     font-size: 25px;
     margin-top: 20px;
@@ -73,8 +91,8 @@ a:hover, a:active, a:visited, a:focus {
     padding: 0 10px 0 10px;
 }
 
-.main {
-    margin-top: 2em;
+.section-title {
+    padding-top: 1em;
 }
 
 .main h2 {
@@ -84,10 +102,6 @@ a:hover, a:active, a:visited, a:focus {
 .main h6 {
     color: #50CE76;
     font-size: 18px;
-}
-
-.projects {
-    margin-top: 35px;
 }
 
 #name {
